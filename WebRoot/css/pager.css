@@ -1,0 +1,52 @@
+.pager-box:after{
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    content: '';
+}
+.pager{
+    float: left;
+    position: relative;
+    left: 50%;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    text-align: center;
+}
+.pager a,.pager span{
+    position: relative;
+    left: -50%;
+    line-height: 23px;
+    display: block;
+    float: left;
+    margin-left: 5px;
+    border: 1px solid #BFBFBF;
+    /*padding: 5px 10px;*/
+    text-decoration: none;
+    color: #299ee3;
+    border-radius: 3px;
+}
+.pager a:hover{
+    color: #fff;
+    background-color: #299EE3;
+}
+.pager .number{
+    width: 28px;
+}
+.pager .prev, .pager .next{
+    width: 59px;
+}
+.pager span{
+    border: 0;
+}
+.pager a.js-selected{
+    color: #fff;
+    border-color: #299EE3;
+    background: #299EE3;
+    cursor: default;
+}
+.pager a.js-disabled{
+    color: #BFBFBF;
+    background: #F2F2F2;
+    cursor: default;
+}

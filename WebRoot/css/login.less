@@ -1,0 +1,97 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  min-width: 1200px;
+  height: 100%;
+  font-family: "microsoft yahei";
+  background: #1898BB;
+  overflow: hidden;
+}
+
+input, select, textarea {
+  outline: none;
+  border: none;
+}
+
+.layout {
+  width: 1000px;
+  height: 800px;
+  margin: 50px auto;
+  background: url("../imgs/jkBG.jpg") 100% 100%;
+  overflow: hidden;
+  .header {
+    margin-top: 194px;
+    & > img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .login-wrapper {
+    width: 458px;
+    height: 335px;
+    padding: 25px 35px 0;
+    margin: 45px auto;
+    border-radius: 9px;
+    background: #F0F0F0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    .input-wrapper {
+      margin-top: 10px;
+      & > label {
+        display: block;
+        color: #348EB0;
+        font-size: 18px;
+        line-height: 36px;
+      }
+      .input-box {
+        color: #ACACAC;
+        position: relative;
+        & > input {
+          width: 100%;
+          height: 48px;
+          font-size: 18px;
+          padding: 0 58px;
+          border: 1px solid #E8E8E8;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          border-radius: 5px;
+          &.selected{
+            border-color: #348EB0;
+          }
+        }
+        .iconfont {
+          font-size: 26px;
+          position: absolute;
+          top: 10px;
+        }
+        .icon-icon, .icon-mima {
+          left: 16px;
+        }
+        .icon-quxiao {
+          right: 16px;
+          cursor: pointer;
+          display: none;
+        }
+      }
+    }
+
+    .confirm {
+      display: block;
+      width: 100%;
+      height: 48px;
+      color: #FFF;
+      font-size: 20px;
+      margin-top: 30px;
+      background: #FF902E;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}

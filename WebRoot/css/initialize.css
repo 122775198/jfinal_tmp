@@ -1,0 +1,43 @@
+html {overflow-y:scroll;}
+body {margin:0; padding:0; font:12px"\5B8B\4F53",sans-serif;background:#ffffff;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p,table,td,tr,th{
+    padding:0; margin:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;}
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+
+input{
+    /*border: none;*/
+    outline: none;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+.clearfix::after{
+    content: '';
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+    display: block;
+}
+.clearfix::before{
+    content: '';
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+    display: block;
+}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.demo-box {
+        margin: 150px auto;
+        width: 600px;
+        padding: 20px;
+        border: 5px solid #ccc;
+        background: #fafafa;
+    }
+    .demo-table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .demo-table caption {
+        border-bottom: 1px dashed #ccc;
+        height: 40px;
+        margin-bottom: 20px;
+        font: 18px/1.2 normal 'microsoft yahei';
+    }
+    .demo-table tr td {
+        padding: 8px 10px;
+        font: 16px/1.8 normal 'microsoft yahei';
+        vertical-align: top;
+    }
+    .ui-input {
+        vertical-align: top;
+        height: 18px;
+        font-size: 16px;
+        line-height: 20px;
+        border: 1px solid #aaa;
+        padding: 6px 8px;
+        border-radius: 3px;
+    }

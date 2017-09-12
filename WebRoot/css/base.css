@@ -1,0 +1,25 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img{ margin:0; padding:0 }
+body{ background:#F7F7F9; }
+fieldset, img{ border:0 }
+img{ display:block }
+address, caption, cite, code, dfn, th, var{ font-style:normal; font-weight:normal }
+ul, ol{ list-style:none }
+input{ padding-top:0; padding-bottom:0; font-family:"SimSun", "宋体", "sans-serif";}
+input::-moz-focus-inner{ border:0; padding:0 }
+select, input{ vertical-align:middle }
+select, input, textarea{ font-size:12px; margin:0 }
+input[type="text"], input[type="password"], textarea{ outline-style:none; -webkit-appearance:none }
+textarea{ resize:none }
+table{ border-collapse:collapse }
+.clearfix:after{ content:"."; display:block; height:0; visibility:hidden; clear:both }
+.clearfix{ zoom:1 }
+.clearit{ clear:both; height:0; font-size:0; overflow:hidden }
+.fl{ float:left; _display:inline }
+.fr{ float:right; _display:inline }
+a{ color:#666; text-decoration:none }
+a:visited{ text-decoration:none; outline-style:none;  }
+a:active{ text-decoration:none; outline-style:none;  }
+a:hover{ text-decoration:none; outline-style:none;  }
+a:focus{ text-decoration:none; outline-style:none;  }
+.hidden{ visibility:hidden }
+.main{ width:1000px; margin:0 auto; clear:both; background-color:#fff; overflow:hidden }

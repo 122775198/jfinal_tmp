@@ -1,3 +1,0 @@
-
-2017-09-12 14:09:36
-[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.oracleValidationQueryCheck()]: invalid oracle validationQuery. select 1, may should be : select 1 FROM DUAL
